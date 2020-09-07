@@ -5,8 +5,18 @@ html {
 }
 
 body {
-  font-family: "Open Sans", sans-serif;
   font-size: 16px;
+  font-family: "Fix for Mac Chrome 80", system-ui, -apple-system,
+		BlinkMacSystemFont, ".SFNSText-Regular", sans-serif;
+	background-color: #e9ebee;
+}
+
+.header {
+  background-color: #3b5998;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 250px;
 }
 
 * {
@@ -17,4 +27,67 @@ ul {
   list-style: none;
   margin: 0;
   padding: 0;
+}
+
+.logo-register {
+  display: flex;
+  justify-content: space-between;
+}
+
+.join-facebook {
+  border: none;
+  background-color: #3b5998;
+  color: white;
+}
+
+.join-facebook::after {
+  content: "";
+  border: 5px solid transparent;
+  border-top-color: white;
+  position: relative;
+  bottom: -10px;
+  left: 6px;
+}
+
+.register-button {
+  background-color: #42b72a;
+  border: none;
+  color: white;
+  height: 22px;
+  width: 44px;
+  margin-top: 33px;
+  margin-left: 10px;
+  border-radius: 3px;
+}
+
+.content {
+  padding: 0 250px;
+}
+
+.content-category {
+  display: flex;
+  justify-content: space-between;
+}
+
+.option {
+  background-color: white;
+  padding: 0px;
+  margin: 0px;
+  width: 690px;
+  text-align: center;
+  height: 450px;
+}
+
+.option img {
+  margin: 20px 0px;
+}
+
+.option p {
+  color: gray;
+  padding: 0px 119px;
+  margin-bottom: 50px;
+}
+
+.content > p {
+  margin-bottom: 45px;
 }
