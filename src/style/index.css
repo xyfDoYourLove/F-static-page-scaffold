@@ -38,6 +38,7 @@ ul {
   border: none;
   background-color: #3b5998;
   color: white;
+  outline: none;
 }
 
 .join-facebook::after {
@@ -73,7 +74,7 @@ ul {
   background-color: white;
   padding: 0px;
   margin: 0px;
-  width: 690px;
+  width: 48%;
   text-align: center;
   height: 450px;
 }
